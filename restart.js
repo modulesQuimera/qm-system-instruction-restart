@@ -22,7 +22,7 @@ module.exports = function(RED) {
                 }
             };
 
-            command.payload.attributes.push({ name: "sleep", value: node.sleep });
+            command.payload.attributes.push({ name: "sleep", value: parseInt(node.sleep) });
             
             
 
